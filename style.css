@@ -1,0 +1,35 @@
+a:link {
+  text-decoration: none; color: blue;
+}
+a:visited {
+  text-decoration: none; color: grey;
+}
+h1 {
+  font-size: 80px; text-align: center; border-bottom: 2px gray solid; margin: 0; padding: 20px;
+}
+#dia {
+  text-align: center;
+}
+#diablo {
+  color: red;
+}
+ol {
+  border-right: 2px gray solid; margin: 0; width: 150px; font-size: 20px; padding: 40px; padding-bottom: 0;
+}
+#grid {
+  display: grid; grid-template-columns: 270px 1fr;
+}
+.skull {
+  width: 500px; height: auto;
+}
+@media(max-width:860px){
+  #grid{
+    display: block;
+  }
+  ol{
+    border-right: none;
+  }
+  h1{
+    border-bottom: none;
+  }
+}
