@@ -1,13 +1,15 @@
 a:link {
   text-decoration: none; color: blue;
 }
+/*
 a:visited {
   text-decoration: none; color: grey;
 }
+*/
 h1 {
   font-size: 80px; text-align: center; border-bottom: 2px gray solid; margin: 0; padding: 20px;
 }
-#dia {
+.center {
   text-align: center;
 }
 #diablo {
